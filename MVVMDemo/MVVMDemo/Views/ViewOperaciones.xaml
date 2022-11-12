@@ -4,11 +4,30 @@
              x:Class="MVVMDemo.Views.ViewOperaciones">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="Suma"/>
             <Entry  Text="{Binding ValorA}"></Entry>
             <Entry Text="{Binding ValorB}" ></Entry>
             <Button Text="Sumar" Command="{Binding Sumar}" ></Button>
             <Label Text="{Binding ResultadoSuma}"></Label>
+
+            <Label Text="Resta"/>
+            <Entry  Text="{Binding ValorA}"></Entry>
+            <Entry Text="{Binding ValorB}" ></Entry>
+            <Button Text="Restar" Command="{Binding Restar}" ></Button>
+            <Label Text="{Binding ResultadoResta}"></Label>
             
+            <Label Text="Multiplicación"/>
+            <Entry  Text="{Binding ValorA}"></Entry>
+            <Entry Text="{Binding ValorB}" ></Entry>
+            <Button Text="Multiplicar" Command="{Binding Multiplicar}" ></Button>
+            <Label Text="{Binding ResultadoMultiplicacion}"></Label>
+
+            <Label Text="División"/>
+            <Entry  Text="{Binding ValorA}"></Entry>
+            <Entry Text="{Binding ValorB}" ></Entry>
+            <Button Text="Dividir" Command="{Binding Dividir}" ></Button>
+            <Label Text="{Binding ResultadoDivision}"></Label>
+            <Label Text="{Binding Message}"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

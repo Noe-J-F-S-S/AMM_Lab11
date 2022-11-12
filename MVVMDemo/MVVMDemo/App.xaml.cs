@@ -10,7 +10,7 @@ namespace MVVMDemo
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Views.ViewOperaciones();
         }
 
         protected override void OnStart()
